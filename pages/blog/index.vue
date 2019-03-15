@@ -15,10 +15,18 @@
 
 <style scoped>
     .blog {
-
+        background: black;
     }
     .post {
-        background: gray;
-
+        color: white;
+        padding: 10px;
+        height: 150px;
+        border: 1px solid #ccc;
+    
+    }
+    .post h1 {
+        color: #7cdcff;
+        display: flex;
+        justify-content: center;
     }
 </style>
