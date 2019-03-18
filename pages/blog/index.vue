@@ -2,7 +2,7 @@
 
     <section class="blog">
 
-        <Posts 
+        <Posts class="post"
             title="Building with Nuxt" 
             previewText="This is my first try with nuxt.js and vue. Let's see how it goes." />
 
