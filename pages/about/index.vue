@@ -4,5 +4,13 @@
     <p> I am a front-end web developer who focuses on JavaScript and Vue with experience with React.
         I was a recipient of the Grow With Google Scholarship in 2018 and was chosen to receive the full nanodegree
         which I completed in November of 2018. Since then I have been looking deeper into CSS and other JavaScript libraries and frameworks.</p> 
+    <p> I've always had a creative side to myself which had always shown in my writing. 
+        I graduated University of Wisconsin-Stevens Point with a English degree and worked at two newspapers during my time there.
+        However, I took a couple web development classes and created a personal blog and realized I loved creating websites.
+        Ultimately I decided I would delve deeper into computer programming more in depth after graduation and kept that promise to myself. 
+        During my studies I fell deeper and deeper into the programming world and can't imagine not creating.</p>
+    <p> The more I learn about websites the more I have become curious about other technologies and the way technology impacts our lives.
+        It's facinating how ingrained technology has become in our lives and how advanced it is. 
+        Between artificial intelligence and having the entire internet in our pockets there's no end to the possibilities.</p>
 </section>
 </template>
