@@ -14,3 +14,10 @@
         Between artificial intelligence and having the entire internet in our pockets there's no end to the possibilities.</p>
 </section>
 </template>
+
+<style>
+    body {
+        background: black;
+        color: white
+    }
+</style>
