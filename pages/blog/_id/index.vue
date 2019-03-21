@@ -9,6 +9,7 @@
 <style>
     .single-blog {
         display:flex;
+        flex-flow: column;
         justify-content: center;
         text-align: center;
         padding: 20px;
