@@ -1,6 +1,7 @@
 <template>
 
     <section class="blog">
+        <NavBar />
 
         <Posts class="post" id="1"
             title="Building with Nuxt" 
@@ -17,8 +18,8 @@
 
     export default {
         components: {
-            Posts
-        }
+            Posts, NavBar
+        },
     }
 </script>
 
