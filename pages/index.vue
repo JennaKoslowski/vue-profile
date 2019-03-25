@@ -3,23 +3,12 @@
     <div>
       <logo />
       <h1 class="title">
-        professional-profile
+        Jenna Koslowski
       </h1>
       <h2 class="subtitle">
-        professional portfolio ud nuxtsing
+        JavaScript Developer
       </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >GitHub</a>
-      </div>
+      
     </div>
   </section>
 </template>
@@ -42,6 +31,9 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+* {
+  background-color: #4c535e;
 }
 
 .title {
