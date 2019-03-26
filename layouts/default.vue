@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="app-container">
+    <FollowBar />
     <NavBar />
     <nuxt />
   </div>
@@ -7,10 +8,12 @@
 
 <script>
   import NavBar from '@/components/NavBar'
+  import FollowBar from '@/components/FollowBar'
 
   export default {
     components: {
-      NavBar
+      NavBar,
+      FollowBar
     }
   }
 </script>
@@ -33,6 +36,11 @@ html {
 *:after {
   box-sizing: border-box;
   margin: 0;
+}
+
+.app-container { /*will grid work better here?*/
+  display:flex;
+  align-content:flex-end;
 }
 
 .button--green {

@@ -19,10 +19,8 @@
       color: black;
       text-decoration: underline; 
       height: 100vh;
-      width: 10vw;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
+      width: 25vw;
+      
     }
   
 </style>
