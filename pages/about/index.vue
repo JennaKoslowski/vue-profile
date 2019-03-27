@@ -17,7 +17,7 @@
 
 <style>
     body {
-        background: black;
-        color: white
+        background: #4c535e;
+        color: whitesmoke;
     }
 </style>

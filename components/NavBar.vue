@@ -15,8 +15,8 @@
 
 <style scoped>
     .container {
-      background-color: #ad70e0;
-      color: black;
+      background-color: #4c535e;
+      color: white;
       text-decoration: underline; 
       height: 100vh;
       width: 25vw;

@@ -1,7 +1,6 @@
 <template>
 
     <section class="blog">
-        <NavBar />
 
         <Posts class="post" id="1"
             title="Building with Nuxt" 
@@ -18,14 +17,15 @@
 
     export default {
         components: {
-            Posts, NavBar
+            Posts
         },
     }
 </script>
 
 <style scoped>
     .blog {
-        background: black;
+        background: #4c535e;
+        width: 100vw
     }
     .post {
         color: white;
@@ -34,7 +34,7 @@
         border: 1px solid #ccc;
     }
     .post h1 {
-        color: #7cdcff;
+        color: white;
         display: flex;
         justify-content: center;
     }
