@@ -1,7 +1,8 @@
 <template>
   <div class="app-container">
-   <!-- <FollowBar />
-    <NavBar /> -->
+    <!-- add name thing here-->
+   <FollowBar />
+    <NavBar />
     <nuxt />
   </div>
 </template>
@@ -39,8 +40,13 @@ html {
 }
 
 .app-container { /*will grid work better here?*/
-  display:flex;
-  align-content:flex-end;
+  display:grid;
+grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: auto;
+  grid-template-areas: /*this needs to be changed*/
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer";
 }
 
 .button--green {
