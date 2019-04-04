@@ -1,6 +1,6 @@
 <template>
   <div class="app-container">
-   <FollowBar class="follow"/>
+   <FollowBar/>
    <div id= "navandcontent">
     <nuxt />
     <NavBar />
@@ -38,11 +38,6 @@ html {
 *:after {
   box-sizing: border-box;
   margin: 0;
-}
-
-.follow {
-    width: 100vw;
-    background: black;
 }
 
 #navandcontent {

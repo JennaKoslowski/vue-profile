@@ -20,7 +20,6 @@
       text-decoration: underline; 
       height: 100vh;
       width: 25vw;
-      
     }
   
 </style>
