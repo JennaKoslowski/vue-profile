@@ -1,9 +1,10 @@
 <template>
   <div class="app-container">
-    <!-- add name thing here-->
-   <FollowBar />
-    <NavBar />
+   <FollowBar class="follow"/>
+   <div id= "navandcontent">
     <nuxt />
+    <NavBar />
+    </div>
   </div>
 </template>
 
@@ -39,14 +40,14 @@ html {
   margin: 0;
 }
 
-.app-container { /*will grid work better here?*/
-  display:grid;
-grid-template-columns: 50px 50px 50px 50px;
-  grid-template-rows: auto;
-  grid-template-areas: /*this needs to be changed*/
-    "header header header header"
-    "main main . sidebar"
-    "footer footer footer footer";
+.follow {
+    width: 100vw;
+    background: black;
+}
+
+#navandcontent {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
 
 .button--green {

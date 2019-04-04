@@ -1,6 +1,6 @@
 <template>
 <div class="container">
-    <nav class="navbar">
+    <nav class="followbar">
         <ul>
         <li><a href="https://github.com/JennaKoslowski">GitHub</a></li>
         <li><a href="https://www.linkedin.com/in/jennakoslowski/">LinkedIn</a></li>
@@ -9,3 +9,7 @@
     </nav>
 </div>
 </template>
+
+<style>
+
+</style>
