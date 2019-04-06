@@ -1,7 +1,7 @@
 <template>
 <div class="sideContainer">
-    <nav class="navbar">
-        <ul>
+    <nav class="navBar">
+        <ul class="navList">
         <li><nuxt-link class="navbar-item" to="/">Home</nuxt-link></li>
         <li><nuxt-link class="navbar-item" to="/about">About</nuxt-link></li>
         <li><nuxt-link class="navbar-item" to="/blog">Blog</nuxt-link></li>
@@ -19,6 +19,9 @@
       color: white;
       display: flex;
       flex-direction: column;
-      justify-content: space-around
+      justify-content: space-around;
+    }
+    .navList {
+        list-style-type: none;
     }
 </style>

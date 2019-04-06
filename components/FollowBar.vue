@@ -5,6 +5,7 @@
         <li><a href="https://github.com/JennaKoslowski">GitHub</a></li>
         <li><a href="https://www.linkedin.com/in/jennakoslowski/">LinkedIn</a></li>
         <li><a href="https://twitter.com/JennaKoslowski">Twitter</a></li>
+        <li><a href="https://www.instagram.com/jenna.koslowski/">Instagram</a></li>
         </ul>
     </nav>
 </div>
@@ -16,6 +17,7 @@
         width:100vw;
         display: flex;
         justify-content: space-around;
+        list-style-type: none;
         align-items: center;
         background: rgb(26, 23, 25);
     }
