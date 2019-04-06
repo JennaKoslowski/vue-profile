@@ -15,7 +15,10 @@
 
 <style scoped>
     .sideContainer {
-      background-color: #4c535e;
+      background-color: #788291;
       color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around
     }
 </style>
