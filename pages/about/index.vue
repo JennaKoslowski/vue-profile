@@ -1,7 +1,7 @@
 <template>
-<section>
+<section class= "aboutme">
     <h1>About Me:</h1>
-    <p> I am a front-end web developer who focuses on JavaScript and Vue with experience with React.
+    <p> I am a front-end web developer who focuses on JavaScript with experience with React and Vue.
         I was a recipient of the Grow With Google Scholarship in 2018 and was chosen to receive the full nanodegree
         which I completed in November of 2018. Since then I have been looking deeper into CSS and other JavaScript libraries and frameworks.</p> 
     <p> I've always had a creative side to myself which had always shown in my writing. 
@@ -17,7 +17,10 @@
 
 <style scoped>
     body {
-        background: #4c535e;
-        color: whitesmoke;
+        background: whitesmoke;
+        color: #4c535e;
+    }
+    .aboutme {
+        padding: 15px;
     }
 </style>
