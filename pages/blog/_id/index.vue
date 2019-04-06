@@ -6,7 +6,7 @@
     </section>
 </template>
 
-<style>
+<style scoped>
     .single-blog {
         display:flex;
         flex-flow: column;

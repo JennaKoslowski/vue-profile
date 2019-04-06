@@ -10,9 +10,10 @@
 </div>
 </template>
 
-<style>
+<style scoped>
 .container {
-    max-height: 20%;
+    max-height: 40px;
+    background: pink;
 
 }
     .followme {

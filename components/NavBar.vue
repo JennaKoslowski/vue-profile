@@ -1,5 +1,5 @@
 <template>
-<div class="container">
+<div class="sideContainer">
     <nav class="navbar">
         <ul>
         <li><nuxt-link class="navbar-item" to="/">Home</nuxt-link></li>
@@ -14,10 +14,10 @@
 
 
 <style scoped>
-    .container {
+    .sideContainer {
       background-color: #4c535e;
       color: white;
-      text-decoration: underline; 
+      text-decoration: none; 
       height: 100vh;
       width: 25vw;
     }

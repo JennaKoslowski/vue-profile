@@ -15,7 +15,7 @@
 </section>
 </template>
 
-<style>
+<style scoped>
     body {
         background: #4c535e;
         color: whitesmoke;
