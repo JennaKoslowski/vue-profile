@@ -17,9 +17,5 @@
     .sideContainer {
       background-color: #4c535e;
       color: white;
-      text-decoration: none; 
-      height: 100vh;
-      width: 25vw;
     }
-  
 </style>

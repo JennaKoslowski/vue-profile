@@ -11,11 +11,6 @@
 </template>
 
 <style scoped>
-.container {
-    max-height: 40px;
-    background: pink;
-
-}
     .followme {
         height: 40px;
         width:100vw;
