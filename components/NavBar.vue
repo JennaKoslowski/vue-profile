@@ -20,6 +20,7 @@
       display: flex;
       flex-direction: column;
       justify-content: space-around;
+      height: 100vh;
     }
     .navList {
         list-style-type: none;
