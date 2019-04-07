@@ -23,6 +23,6 @@
         color: #4c535e;
     }
     .aboutme {
-        padding: 15px;
+        padding: 40px 15px;
     }
 </style>

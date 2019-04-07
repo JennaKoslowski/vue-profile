@@ -22,7 +22,8 @@
   text-align: center;
 }
 * {
-  background-color: #4c535e;
+  color: #4c535e;
+  background-color: whitesmoke;
 }
 
 .title {
@@ -31,14 +32,14 @@
   display: block;
   font-weight: 300;
   font-size: 100px;
-  color: whitesmoke;
+  color: #4c535e;
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight: 300;
   font-size: 42px;
-  color: whitesmoke;
+  color: #4c535e;
   word-spacing: 5px;
   padding-bottom: 15px;
 }
