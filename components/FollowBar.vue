@@ -19,6 +19,7 @@
         justify-content: space-around;
         list-style-type: none;
         align-items: center;
+        position: fixed;
         background: rgb(26, 23, 25);
     }
 </style>

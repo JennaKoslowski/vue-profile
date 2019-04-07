@@ -43,7 +43,7 @@ html {
 
 #navandcontent {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 4fr 1fr;
 }
 
 .button--green {
