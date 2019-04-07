@@ -24,17 +24,17 @@
 
 <style scoped>
     .blog {
-        background: #4c535e;
-        width: 100vw
+        background-color: whitesmoke;
+        color: #4c535e;
+        padding: 40px 15px;
     }
     .post {
-        color: white;
+        color: #4c535e;
         padding: 10px;
         height: 150px;
-        border: 1px solid #ccc;
     }
     .post h1 {
-        color: white;
+        color: #4c535e;
         display: flex;
         justify-content: center;
     }

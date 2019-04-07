@@ -7,6 +7,10 @@
 </template>
 
 <style scoped>
+    body {
+        background-color: whitesmoke;
+        color: #4c535e;
+    }
     .single-blog {
         display:flex;
         flex-flow: column;
