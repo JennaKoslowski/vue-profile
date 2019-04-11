@@ -8,7 +8,9 @@
       <h2 class="subtitle">
         JavaScript Developer
       </h2>
-      
+      <h4 class="construction">
+        *This site is currently under construction. 
+      </h4>
     </div>
   </section>
 </template>
@@ -42,6 +44,11 @@
   color: #4c535e;
   word-spacing: 5px;
   padding-bottom: 15px;
+}
+.construction{
+  bottom: 0;
+  left: 0;
+  position: absolute;
 }
 
 .links {
