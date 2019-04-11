@@ -5,9 +5,7 @@
         I was a recipient of the Grow With Google Scholarship in 2018 and was chosen to receive the full nanodegree
         which I completed in November of 2018. Since then I have been looking deeper into CSS and other JavaScript libraries and frameworks.</p> 
     <br>
-    <p> I've always had a creative side to myself which had always shown in my writing. 
-        I graduated University of Wisconsin-Stevens Point with a English degree and worked at two newspapers during my time there.
-        However, I took a couple web development classes and created a personal blog and realized I loved creating websites.
+    <p> I took a couple web development classes and created a personal blog and realized I loved creating websites.
         Ultimately I decided I would delve deeper into computer programming more in depth after graduation and kept that promise to myself. 
         During my studies I fell deeper and deeper into the programming world and can't imagine not creating.</p>
     <br>
