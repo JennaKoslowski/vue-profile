@@ -3,7 +3,7 @@
     <form>
         <fieldset class="contactforms">
             <legend>
-                Contact Me.
+                Contact Me
             </legend>
             <label>
                 Full Name:
