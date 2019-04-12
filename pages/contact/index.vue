@@ -1,6 +1,6 @@
 <template>
 <div id="app">
-    <form>
+    <form action="malito:jenna.koslowski@yahoo.com" method="post" enctype="text/plain">
         <fieldset class="contactforms">
             <legend>
                 Contact Me
@@ -18,10 +18,10 @@
             <label>
                 What Can I help you with?
                 <br />
-                <input class="asking" type="text" name="question" size="500">
+                <textarea class="asking" type="text" name="question" size="500">
             </label>
             <br />
-            <button>Submit<input type="submit" name="submit"</button>
+            <input type="submit" name="submit" value="Submit">
         </fieldset>
     </form>
 </div>
