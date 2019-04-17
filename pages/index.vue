@@ -7,8 +7,8 @@
       <h2 class="subtitle">
         JavaScript Developer
       </h2>
-      <button><a href="https://github.com/JennaKoslowski/">Github</a></button>
-      <button><a href="">LinkedIn</a></button>
+      <a href="https://github.com/JennaKoslowski/"><button>Github</button></a>
+      <a href="https://www.linkedin.com/in/jennakoslowski/"><button>LinkedIn</button></a>
       <h4 class="construction">
         *This site is currently under construction. 
       </h4>
@@ -59,14 +59,15 @@
 button{
   display: inline-block;
   border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
+  border: 1px solid #4c535e;
+  color: #4c535e;
   text-decoration: none;
   padding: 10px 30px;
 }
 
 button:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
+  border: 2px solid #4c535e;
+  color: #4c535e;
+} 
+
 </style>
