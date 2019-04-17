@@ -1,8 +1,26 @@
 <template>
+<section>
     <h1 class= "title">
         Projects
     </h1>
+    <div class="projectblock">
+        <Projects class="projects"
+            title="Arcade Game"
+            languages= "HTML, CSS, JS"
+            github= "https://github.com/JennaKoslowski/frontend-nanodegree-arcade-game" />
+    </div>
+</section>
 </template>
+
+<script>
+    import Projects from '@/components/Projects'
+
+    export default {
+        components: {
+            Projects
+        }
+    }
+</script>
 
 <style scoped>
 .title {
@@ -14,5 +32,11 @@
   font-size: 100px;
   color: #4c535e;
   letter-spacing: 1px;
+}
+.projectblock {
+    width: 90%;
+    height: 90%;
+    border: 1px solid #4c535e;
+
 }
 </style>
