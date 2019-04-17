@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "professional portfolio ud nuxtsing",
   "author": "Jenna Koslowski",
+  "homepage": "https://github.com/JennaKoslowski/jennakoslowski.github.io",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "nodemon": "^1.18.9",
+    "vue-gh-pages": "^1.19.0",
     "webpack-dev-server": "^3.3.1"
   }
 }
