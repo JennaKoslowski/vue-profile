@@ -8,3 +8,9 @@
 </div>
 </section>
 </template>
+
+<script>
+    export default {
+        props: ['title', 'languages']
+    }
+</script>
