@@ -35,7 +35,8 @@
 }
 .projectblock {
     width: 90%;
-    height: 90%;
+    height: 50vh;
+    margin: auto;
     border: 1px solid #4c535e;
 
 }
