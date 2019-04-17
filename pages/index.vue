@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     <div>
+      <Logo />
       <h1 class="title">
         Jenna Koslowski
       </h1>

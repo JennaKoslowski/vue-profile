@@ -1,6 +1,6 @@
 <template>
 <div id="app">
-    <form action="malito:jenna.koslowski@yahoo.com" method="post" enctype="text/plain">
+    <form action="malito:jenna.koslowski@yahoo.com" method="post">
         <fieldset class="contactforms">
             <legend>
                 Contact Me
