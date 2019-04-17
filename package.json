@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "professional portfolio ud nuxtsing",
   "author": "Jenna Koslowski",
-  "homepage": "https://github.com/JennaKoslowski/jennakoslowski.github.io",
+  "homepage": "https://github.com/JennaKoslowski/jennakoslowski.github.io/blob/master/pages/index.vue",
   "private": true,
   "scripts": {
     "dev": "nuxt",
