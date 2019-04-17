@@ -6,7 +6,7 @@
         <li><nuxt-link class="navbar-item" to="/about">About</nuxt-link></li>
         <li><nuxt-link class="navbar-item" to="/blog">Blog</nuxt-link></li>
         <li><nuxt-link class="navbar-item" to="/projects">Projects</nuxt-link></li>        
-        <li><nuxt-link class="navbar-item" to="/contact">Contact</nuxt-link></li>
+        <li><a href="malito:jenna.koslowski@yahoo.com"></li>
         </ul>
     </nav>
 </div>
