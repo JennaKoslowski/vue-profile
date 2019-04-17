@@ -38,6 +38,11 @@
     height: 50vh;
     margin: auto;
     border: 1px solid #4c535e;
-
+}
+.projects {
+    width: 25%;
+    height:25%;
+    border: 1px solid #4c535e;
+    margin: auto;
 }
 </style>
