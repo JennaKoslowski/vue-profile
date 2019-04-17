@@ -1,13 +1,14 @@
 <template>
   <section class="container">
     <div>
-      <logo />
       <h1 class="title">
         Jenna Koslowski
       </h1>
       <h2 class="subtitle">
         JavaScript Developer
       </h2>
+      <button><a href="https://github.com/JennaKoslowski/">Github</a></button>
+      <button><a href="">LinkedIn</a></button>
       <h4 class="construction">
         *This site is currently under construction. 
       </h4>
@@ -53,5 +54,19 @@
 
 .links {
   padding-top: 15px;
+}
+
+button{
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid #3b8070;
+  color: #3b8070;
+  text-decoration: none;
+  padding: 10px 30px;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #3b8070;
 }
 </style>
