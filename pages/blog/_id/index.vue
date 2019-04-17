@@ -3,7 +3,6 @@
         <h1>{{ $route.params.id}}</h1>
         <h3> By: Jenna Koslowski</h3>
         <p>Blog article here.</p>
-        </p>
     </section>
 </template>
 
