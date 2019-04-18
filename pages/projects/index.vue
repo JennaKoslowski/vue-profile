@@ -8,6 +8,23 @@
             title="Arcade Game"
             languages= "HTML, CSS, JS"
             github= "https://github.com/JennaKoslowski/frontend-nanodegree-arcade-game" />
+            <Projects class="projects"
+            title="MyReads"
+            languages= "HTML, CSS, JS, ReactJS"
+            github= "https://github.com/JennaKoslowski/react-myreads" />
+            <Projects class="projects"
+            title="Memory Game"
+            languages= "HTML, CSS, JS"
+            github= "https://github.com/JennaKoslowski/fend-memory-project" />
+            <h2> Current Projects </h2>
+            <Projects class="projects"
+            title="Coffee Map"
+            languages= "HTML, CSS, JS, ReactJS"
+            github= "https://github.com/JennaKoslowski/neighborhood-maps" />
+            <Projects class="projects"
+            title="Vue Profile"
+            languages= "HTML, CSS, JS, VueJS"
+            github= "https://github.com/JennaKoslowski/vue-profile" />
     </div>
 </section>
 </template>
