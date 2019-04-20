@@ -16,21 +16,21 @@
             github= "https://github.com/JennaKoslowski/vue-profile" />
     </section>
     <h2>Completed Projects</h2>
-    <section class="completedprojects">
+    <section class="completedprojects"> 
         <Projects class="projects"
             title="Arcade Game"
             languages= "HTML, CSS, JS"
-            screenshot="https://cdn.shopify.com/s/files/1/2081/1519/products/1600x1067_Sparrow_White_Blue_PROFILE_1024x1024.jpg?v=1545814486"
+            screenshot="../../arcadeGame.JPG"
             github= "https://github.com/JennaKoslowski/frontend-nanodegree-arcade-game" />
         <Projects class="projects"
             title="MyReads"
             languages= "HTML, CSS, JS, ReactJS"
-            screenshot=""
+            screenshot="../../myReads.JPG"
             github= "https://github.com/JennaKoslowski/react-myreads" />
         <Projects class="projects"
             title="Memory Game"
             languages= "HTML, CSS, JS"
-            screenshot=""
+            screenshot="../../matchingGame.JPG"
             github= "https://github.com/JennaKoslowski/fend-memory-project" />
     </section>           
     </div>
