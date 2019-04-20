@@ -9,7 +9,7 @@
             <Projects class="projects"
             title="Coffee Map"
             languages= "HTML, CSS, JS, ReactJS"
-            github= "https://github.com/JennaKoslowski/neighborhood-maps" />
+            github= 'https://github.com/JennaKoslowski/neighborhood-maps' />
             <Projects class="projects"
             title="Vue Profile"
             languages= "HTML, CSS, JS, VueJS"
@@ -21,7 +21,7 @@
             title="Arcade Game"
             languages= "HTML, CSS, JS"
             screenshot="../../arcadeGame.JPG"
-            github= "https://github.com/JennaKoslowski/frontend-nanodegree-arcade-game" />
+            github="https://github.com/JennaKoslowski/frontend-nanodegree-arcade-game" />
         <Projects class="projects"
             title="MyReads"
             languages= "HTML, CSS, JS, ReactJS"

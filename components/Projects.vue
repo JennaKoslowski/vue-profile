@@ -4,14 +4,14 @@
     <h1>{{ title }}</h1>
     <img :src="screenshot" class= "images"/>
     <p>{{languages}}</p>
-    <a :href="github"><button>Github</button></a>
+    <a :href="github" target="_blank"><button>Github</button></a>
 </div>
 </section>
 </template>
 
 <script>
     export default {
-        props: ['title', 'languages', 'screenshot']
+        props: ['title', 'languages', 'screenshot', 'github']
     }
 </script>
 
