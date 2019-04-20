@@ -51,7 +51,9 @@
   left: 0;
   position: absolute;
 }
+</style>
 
+<style>
 .links {
   padding-top: 15px;
 }
@@ -69,5 +71,4 @@ button:hover {
   border: 2px solid #4c535e;
   color: #4c535e;
 } 
-
 </style>
