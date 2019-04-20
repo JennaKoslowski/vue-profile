@@ -16,15 +16,15 @@
 
 <style scoped>
     .sideContainer {
-      background-color: #788291;
-      color: white;
+      background-color: #238da0;
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
-      height: 100vh;
+      justify-content: flex-start;
+      padding-top: 50%
     }
     .navList {
         list-style-type: none;
+        position:fixed;
     }
     
 </style>
