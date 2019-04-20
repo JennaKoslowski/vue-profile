@@ -1,7 +1,9 @@
 <template>
 
     <section class="blog">
-
+        <h1 class= "title">
+        Blog
+    </h1>
         <Posts class="post" id="2"
             title="Building with Nuxt" 
             previewText="This is my first try with nuxt.js and vue. Let's see how it goes." />
