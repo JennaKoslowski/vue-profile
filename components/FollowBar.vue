@@ -2,8 +2,8 @@
 <div class="container">
     <nav class="followbar">
         <ul class= "followme">
-        <li><a href="https://github.com/JennaKoslowski">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/jennakoslowski/">LinkedIn</a></li>
+        <li><a href="https://github.com/JennaKoslowski" class= "links">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/jennakoslowski/" class="links">LinkedIn</a></li>
         </ul>
     </nav>
 </div>

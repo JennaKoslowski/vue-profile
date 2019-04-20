@@ -56,6 +56,10 @@
 <style>
 .links {
   padding-top: 15px;
+  color:whitesmoke;
+}
+.links:visited {
+color:whitesmoke;
 }
 
 button{

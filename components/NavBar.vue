@@ -2,10 +2,10 @@
 <div class="sideContainer">
     <nav class="navBar">
         <ul class="navList">
-        <li><nuxt-link class="navbar-item" to="/">Home</nuxt-link></li>
-        <li><nuxt-link class="navbar-item" to="/about">About</nuxt-link></li>
-        <li><nuxt-link class="navbar-item" to="/blog">Blog</nuxt-link></li>
-        <li><nuxt-link class="navbar-item" to="/projects">Projects</nuxt-link></li>        
+        <li><nuxt-link class="navbar-item links" to="/">Home</nuxt-link></li>
+        <li><nuxt-link class="navbar-item links " to="/about">About</nuxt-link></li>
+        <li><nuxt-link class="navbar-item links" to="/blog">Blog</nuxt-link></li>
+        <li><nuxt-link class="navbar-item links" to="/projects">Projects</nuxt-link></li>        
         </ul>
     </nav>
 </div>
@@ -24,4 +24,5 @@
     .navList {
         list-style-type: none;
     }
+    
 </style>
