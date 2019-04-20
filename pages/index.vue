@@ -59,7 +59,7 @@
   color:whitesmoke;
 }
 .links:visited {
-color:whitesmoke;
+color:#c4c4c4;
 }
 
 button{
