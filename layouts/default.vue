@@ -1,21 +1,16 @@
 <template>
-  <div class="app-container">
-   <FollowBar/>
    <div id= "navandcontent">
     <nuxt />
     <NavBar />
     </div>
-  </div>
 </template>
 
 <script>
   import NavBar from '@/components/NavBar'
-  import FollowBar from '@/components/FollowBar'
 
   export default {
     components: {
-      NavBar,
-      FollowBar
+      NavBar
     }
   }
 </script>
