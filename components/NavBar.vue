@@ -13,10 +13,9 @@
 </div>
 </template>
 
-
 <style scoped>
     .sideContainer {
-      background-color: #238da0;
+      background-color: var(--midnight);
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
