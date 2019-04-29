@@ -6,8 +6,8 @@
         <li><nuxt-link class="navbar-item links " to="/about">About</nuxt-link></li>
         <li><nuxt-link class="navbar-item links" to="/blog">Blog</nuxt-link></li>
         <li><nuxt-link class="navbar-item links" to="/projects">Projects</nuxt-link></li>        
-        <li><a href="https://github.com/JennaKoslowski" class= "links">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/jennakoslowski/" class="links">LinkedIn</a></li>
+        <li><a href="https://github.com/JennaKoslowski" target="_blank" class= "links">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/jennakoslowski/" target="_blank" class="links">LinkedIn</a></li>
         </ul>
     </nav>
 </div>
