@@ -51,7 +51,6 @@
 .projectblock {
     width: 90%;
     margin: auto;
-    border: 1px solid #4c535e;
 }
 section {
     display: flex;
@@ -59,10 +58,7 @@ section {
     flex-direction: row;
     }
 .projects {
-    border: 1px solid #4c535e;
     margin: 10px;
     padding: 10px;
-    width: 40%;
 }
-
 </style>

@@ -8,8 +8,8 @@
 
 <style scoped>
     body {
-        background-color: whitesmoke;
-        color: #4c535e;
+        background-color: var(--middle);
+        color: var(--koa);
     }
     .single-blog {
         display:flex;

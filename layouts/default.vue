@@ -22,7 +22,7 @@
   --lavender: #c3afd3;
   --liberty: #625da3;
   --midnight: #131858;
-  --middle: #78ccea;
+  --middle: #E6F5FB;
 }
 
 html {
@@ -36,6 +36,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  background: var(--middle)
 }
 
 *,
@@ -43,6 +44,7 @@ html {
 *:after {
   box-sizing: border-box;
   margin: 0;
+  background: var(--middle);
 }
 
 #navandcontent {

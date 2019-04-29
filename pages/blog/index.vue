@@ -26,17 +26,18 @@
 
 <style scoped>
     .blog {
-        background-color: whitesmoke;
-        color: #4c535e;
+        background: var(--middle);
+        color: var(--koa);
         padding: 40px 15px;
     }
     .post {
-        color: #4c535e;
+        background: var(--middle);
+        color: var(--koa);
         padding: 10px;
         height: 150px;
     }
     .post h1 {
-        color: #4c535e;
+        color: var(--koa);
         display: flex;
         justify-content: center;
     }

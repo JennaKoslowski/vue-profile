@@ -19,8 +19,8 @@
 
 <style scoped>
     body {
-        background: whitesmoke;
-        color: #4c535e;
+        background: var(--middle);
+        color: var(--koa);
     }
     .aboutme {
         padding: 40px 15px;

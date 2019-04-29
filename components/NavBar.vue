@@ -19,11 +19,18 @@
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
-      padding-top: 50%
+      padding-top: 50%;
     }
     .navList {
         list-style-type: none;
         position:fixed;
+        background:var(--midnight);
+    }
+    .links{
+        background: var(--midnight);
+    }
+    li {
+        background: var(--midnight)
     }
     
 </style>

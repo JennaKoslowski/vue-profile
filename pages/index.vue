@@ -25,15 +25,15 @@
   text-align: center;
 }
 * {
-  color: #4c535e;
-  background-color: whitesmoke;
+  color: var(--koa);
+  background-color: var(--middle);
 }
 
 
 .subtitle {
   font-weight: 300;
   font-size: 42px;
-  color: #4c535e;
+  color: var(--koa);
   word-spacing: 5px;
   padding-bottom: 15px;
 }
@@ -52,28 +52,30 @@
   display: block;
   font-weight: 300;
   font-size: 100px;
-  color: #4c535e;
+  color: var(--koa);
   letter-spacing: 1px;
 }
 .links {
   padding-top: 15px;
-  color:whitesmoke;
+  color:var(--lavender);
+  text-decoration:none;
 }
 .links:visited {
-color:#c4c4c4;
+  color:var(--liberty);
+  text-decoration: none;
 }
 
 button{
   display: inline-block;
   border-radius: 4px;
-  border: 1px solid #4c535e;
-  color: #4c535e;
+  border: 1px solid var(--koa);
+  color: var(--koa);
   text-decoration: none;
   padding: 10px 30px;
 }
 
 button:hover {
-  border: 2px solid #4c535e;
-  color: #4c535e;
+  border: 2px solid var(--koa);
+  color: var(--koa);
 }
 </style>

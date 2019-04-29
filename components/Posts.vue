@@ -15,7 +15,8 @@
 
 <style scoped>
     .posts {
-      background-color: whitesmoke;
-      color: #4c535e;
+      background-color: var(--middle);
+      color: var(--koa);
     }
+   
 </style>
