@@ -27,5 +27,6 @@
     }
     p {
         text-align: justify;
+        color: var(--koa);
     }
 </style>

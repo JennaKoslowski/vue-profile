@@ -60,5 +60,6 @@ section {
 .projects {
     margin: 10px;
     padding: 10px;
+    color: var(--koa);
 }
 </style>
