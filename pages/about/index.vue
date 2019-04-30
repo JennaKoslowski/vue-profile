@@ -23,6 +23,9 @@
         color: var(--koa);
     }
     .aboutme {
-        padding: 40px 15px;
+        padding: 40px 30px;
+    }
+    p {
+        text-align: justify;
     }
 </style>
