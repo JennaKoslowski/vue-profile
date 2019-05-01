@@ -8,18 +8,18 @@
     <section class="currentprojects">
         <Projects class="projects"
             title="Coffee Map"
-            languages= "HTML, CSS, JS, ReactJS"
+            languages= "HTML, CSS, JS, React.JS"
             github= 'https://github.com/JennaKoslowski/neighborhood-maps' />
         <Projects class="projects"
             title="Vue Profile"
-            languages= "HTML, CSS, JS, VueJS"
+            languages= "HTML, CSS, JS, Vue.JS, Nuxt.JS"
             github= "https://github.com/JennaKoslowski/vue-profile" />   
     </section>
     <h2>Completed Projects</h2>
     <section class="completedprojects"> 
         <Projects class="projects"
             title="MyReads"
-            languages= "HTML, CSS, JS, ReactJS"
+            languages= "HTML, CSS, JS, React.JS"
             screenshot="../../myReads.JPG"
             github= "https://github.com/JennaKoslowski/react-myreads" />
         <Projects class="projects"

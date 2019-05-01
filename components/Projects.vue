@@ -17,7 +17,7 @@
 
 <style scoped>
 .images{
-    height:150px;
+   width:150px;
 }
 
 </style>
