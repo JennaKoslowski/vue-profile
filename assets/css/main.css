@@ -37,12 +37,15 @@
     color: var(--koa);
     letter-spacing: 1px;
   }
-  .links {
+  a:link {
     padding-top: 15px;
     color:var(--lavender);
     text-decoration:none;
   }
-  .links:visited {
+  a:hover{
+    font-size: 20px;
+  }
+  a:visited {
     color:var(--liberty);
     text-decoration: none;
   }
@@ -59,4 +62,5 @@
   button:hover {
     border: 2px solid var(--koa);
     color: var(--koa);
+    font-size: 14px;
   }
