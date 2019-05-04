@@ -44,38 +44,3 @@
 }
 </style>
 
-<style>
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: var(--koa);
-  letter-spacing: 1px;
-}
-.links {
-  padding-top: 15px;
-  color:var(--lavender);
-  text-decoration:none;
-}
-.links:visited {
-  color:var(--liberty);
-  text-decoration: none;
-}
-
-button{
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid var(--koa);
-  color: var(--koa);
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-button:hover {
-  border: 2px solid var(--koa);
-  color: var(--koa);
-}
-</style>

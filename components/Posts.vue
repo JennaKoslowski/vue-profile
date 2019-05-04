@@ -1,9 +1,8 @@
 <template>
 <nuxt-link :to="'/blog/' + id">
-  
   <article class="posts"> 
     <h1>{{ title }}</h1>
-    <p>{{ previewText }}</p>
+    <p class= "previewText">{{ previewText }}</p>
   </article> </nuxt-link>
 </template>
 
@@ -17,6 +16,9 @@
     .posts {
       background-color: var(--middle);
       color: var(--koa);
+    }
+    .previewText {
+      text-decoration: none;
     }
    
 </style>
