@@ -65,3 +65,16 @@
     font-size: 14px;
     cursor: pointer;
   }
+  /*Media queries*/
+  @media only screen and (max-width: 469px) {
+  
+  }
+  @media only screen and (min-width: 470px) and (max-width: 815px) {
+  
+  }
+  @media only screen and (min-width: 816px) and (max-width: 1244px) {
+  
+  }
+  @media only screen and (min-width: 1245px) {
+
+  }
