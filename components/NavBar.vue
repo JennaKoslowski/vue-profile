@@ -18,9 +18,9 @@
       background-color: var(--midnight);
       display: flex;
       flex-direction: column;
-      justify-content: flex-start;
-      padding-top: 50%;
-      border-radius: 50% 0px 0px 50%
+      justify-content: center;
+      border-radius: 50% 0px 0px 50%;
+      height: 100vh;
     }
     .navList {
         list-style-type: none;
