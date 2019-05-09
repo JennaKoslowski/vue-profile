@@ -20,6 +20,7 @@
       flex-direction: column;
       justify-content: flex-start;
       padding-top: 50%;
+      border-radius: 50% 0px 0px 50%
     }
     .navList {
         list-style-type: none;
