@@ -21,17 +21,18 @@
       justify-content: center;
       border-radius: 50% 0px 0px 50%;
       height: 100vh;
+      width: 20%;
+      position:fixed;
+      bottom: 0;
+      right: 0;
     }
     .navList {
         list-style-type: none;
         position:fixed;
         background:var(--midnight);
+        transform:translate(6%,-50%);
     }
-    .links{
+    .links , li{
         background: var(--midnight);
     }
-    li {
-        background: var(--midnight)
-    }
-    
 </style>
