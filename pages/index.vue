@@ -32,7 +32,6 @@
 
 .subtitle {
   font-weight: 300;
-  font-size: 42px;
   color: var(--koa);
   word-spacing: 5px;
   padding-bottom: 15px;
@@ -41,6 +40,7 @@
   bottom: 0;
   left: 0;
   position: absolute;
+  font-size: 10px;
 }
 </style>
 
