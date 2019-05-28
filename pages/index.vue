@@ -28,8 +28,6 @@
   color: var(--koa);
   background-color: var(--middle);
 }
-
-
 .subtitle {
   font-weight: 300;
   color: var(--koa);
