@@ -33,7 +33,7 @@ export default {
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [
+  plugins: [{ src: '~plugins//slide-menu', ssr: false }
   ],
 
   /*
@@ -50,6 +50,7 @@ export default {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
+      vendor: ['slide-menu']
     }
   }
 }
