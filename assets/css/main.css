@@ -86,9 +86,17 @@
       width: 75%;
   }
   }
-  @media only screen and (min-width: 470px) and (max-width: 815px) {
+  @media only screen and (min-width: 470px) and (max-width: 612px) {
     .title {
       font-size: 50px;
+  }
+  }
+  @media only screen and (min-width: 613px) and (max-width: 815px) {
+    .title {
+      font-size: 50px;
+  }
+    .sideContainer{
+    max-width: 162px;
   }
   }
   @media only screen and (min-width: 816px) and (max-width: 1062px) {
