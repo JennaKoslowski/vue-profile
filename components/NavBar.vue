@@ -1,4 +1,6 @@
 <template>
+<div>
+  <font-awesome-icon :icon="['fas', 'bars']"  />
 <div class="sideContainer">
     <nav class="navBar">
         <ul class="navList">
@@ -10,6 +12,7 @@
         <li><a href="https://www.linkedin.com/in/jennakoslowski/" target="_blank" class="links">LinkedIn</a></li>
         </ul>
     </nav>
+</div>
 </div>
 </template>
 
@@ -35,4 +38,18 @@
     .links , li{
         background: var(--midnight);
     }
+@media only screen and (max-width: 612px) {
+    font-awesome-icon{
+      color: var(--midnight);
+      height: 10vh;
+      width: 10vw;
+      font-size:20px;
+      display:block;
+      
+  }
+ .sideContainer{
+    display: none;
+  }
+  
+}
 </style>
