@@ -1,6 +1,6 @@
 <template>
 <div>
-  <font-awesome-icon :icon="['fas', 'bars']"  />
+  <font-awesome-icon :icon="['fas', 'bars']" class="font"/>
 <div class="sideContainer">
     <nav class="navBar">
         <ul class="navList">
@@ -38,14 +38,17 @@
     .links , li{
         background: var(--midnight);
     }
+    .font{
+      display:none;
+    }
+    
 @media only screen and (max-width: 612px) {
-    font-awesome-icon{
+    .font{
       color: var(--midnight);
       height: 10vh;
       width: 10vw;
       font-size:20px;
-      display:block;
-      
+      display:block; 
   }
  .sideContainer{
     display: none;
