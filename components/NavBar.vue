@@ -1,9 +1,11 @@
 <template>
 <div>
-  <font-awesome-icon :icon="['fas', 'bars']" class="font"/>
-<div class="sideContainer">
-    <nav class="navBar">
-        <ul class="navList">
+  <font-awesome-icon :icon="['fas', 'bars']" class="font" />
+<div class="sideContainer" >
+    <div v-if="toggleSidebar" class="backdrop" @click="$store.dispatch('nav/toggleSidebar')"></div>
+   <transition name="slide-side">
+   <nav class="navBar">
+        <ul class="navList" v-if="toggleSidebar">
         <li><nuxt-link class="navbar-item links" to="/">Home</nuxt-link></li>
         <li><nuxt-link class="navbar-item links " to="/about">About</nuxt-link></li>
         <li><nuxt-link class="navbar-item links" to="/blog">Blog</nuxt-link></li>
@@ -12,9 +14,52 @@
         <li><a href="https://www.linkedin.com/in/jennakoslowski/" target="_blank" class="links">LinkedIn</a></li>
         </ul>
     </nav>
-</div>
-</div>
+   </transition>
+    </div>
+  </div>
 </template>
+
+<script>
+// States
+export const state = () =>({
+    
+    toggleSidebar: false
+    
+})
+
+// mutations
+export const mutations = {
+
+    TOGGLE_SIDEBAR(state) {
+        state.toggleSidebar = !state.toggleSidebar
+    }
+
+}
+
+// actions
+export const actions = {
+
+    toggleSidebar({ commit }) {
+        commit('TOGGLE_SIDEBAR')
+    }
+
+}
+
+// Getters
+export const getters = {
+
+    toggleSidebar: state => state.toggleSidebar,
+
+}
+     export default {
+        computed: {
+            toggleSidebar() {
+                return this.$store.getters['nav/toggleSidebar']
+            }
+        }
+    }
+</script>
+
 
 <style scoped>
     .sideContainer {
