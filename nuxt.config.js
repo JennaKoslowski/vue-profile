@@ -42,6 +42,7 @@ export default {
  modules: [
   [
     'nuxt-fontawesome', {
+      component: 'fas',
       imports: [
        {
          set: '@fortawesome/free-solid-svg-icons',
