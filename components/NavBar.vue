@@ -52,11 +52,33 @@
     .links , li{
         background: var(--midnight);
     }
-@media only screen and (max-width: 612px) {
-  
+ @media only screen and (max-width: 469px) {
  .sideContainer{
-    display: none;
+      background-color: var(--midnight);
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      border-radius: 0px;
+      height: 10vh;
+      width: 100vw;
+      position:fixed;
+      top: 0;
+      left: 0;
   }
-  
+   .navList {
+        list-style-type: none;
+        position:fixed;
+        top:0;
+        left: 0;
+        width:100%;
+        background:var(--midnight);
+        display:flex;
+        flex-direction: row;
+        flex-wrap:nowrap;
+        padding: 4%;
+    }
+    li{
+      padding:10px
+    }
 }
 </style>

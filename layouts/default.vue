@@ -16,9 +16,15 @@
 </script>
 
 <style>
+  #navandcontent{
+    display:flex;
+    
+  }
 
-#navandcontent {
+ @media only screen and (min-width: 469px){
+  #navandcontent {
   display: grid;
   grid-template-columns: 4fr 1fr;
 }
+ }
 </style>
