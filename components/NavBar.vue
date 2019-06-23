@@ -1,6 +1,4 @@
 <template>
-<div>
-  <font-awesome-icon :icon="['fas', 'bars']" class="font"/>
 <div class="sideContainer" >
     <nav class="navBar">
         <ul class="navList">
@@ -12,7 +10,6 @@
         <li><a href="https://www.linkedin.com/in/jennakoslowski/" target="_blank" class="links">LinkedIn</a></li>
         </ul>
     </nav>
-</div>
 </div>
 </template>
 <script>
@@ -33,14 +30,14 @@
       justify-content: center;
       border-radius: 50% 0px 0px 50%;
       height: 100vh;
-      width: 20%;
+      width: 30vw;
       position:fixed;
       bottom: 0;
       right: 0;
     }
     .navFont{
-      color: whitesmoke;
-      height: 36px;
+      color: var(--lavender);
+      height: 30px;
       background-color: var(--midnight);
       font-size:20px;
       margin: 5px;
@@ -48,23 +45,14 @@
     .navList {
         list-style-type: none;
         position:fixed;
+        width:30%;
         background:var(--midnight);
         transform:translate(6%,-50%);
     }
     .links , li{
         background: var(--midnight);
     }
-    .font{
-      display:none;
-    }
-    
 @media only screen and (max-width: 612px) {
-    .font{
-      color: var(--midnight);
-      height: 5vh;
-      font-size:20px;
-      display:block; 
-  }
   
  .sideContainer{
     display: none;
