@@ -75,7 +75,7 @@
         display:flex;
         flex-direction: row;
         flex-wrap:nowrap;
-        padding: 4%;
+        padding: 3%;
     }
     li{
       padding:10px
