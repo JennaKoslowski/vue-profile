@@ -13,8 +13,7 @@
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^5.9.0",
     "cross-env": "^5.2.0",
-    "nuxt": "^2.8.1",
-    "nuxt-fontawesome": "^0.4.0"
+    "nuxt": "^2.8.1"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.9.0",
