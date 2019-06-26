@@ -18,7 +18,7 @@
         components: {
             Posts
         },
-        asyncData(){
+        asyncData(context){
             return context.app.$storyapi.get('cdn/stories/blog', {
                 version: 'draft'
             }).then(res=>{
