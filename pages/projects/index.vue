@@ -9,6 +9,7 @@
         <Projects class="projects current"
             title="Coffee Map"
             languages= "HTML, CSS, JS, React.JS"
+            screeshot="../../coffeeMap.JPG"
             github= 'https://github.com/JennaKoslowski/neighborhood-maps' />
         <Projects class="projects current"
             title="Vue Profile"
