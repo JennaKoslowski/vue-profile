@@ -8,10 +8,6 @@
         JavaScript Developer
       </h2>
       <a href="https://github.com/JennaKoslowski/"><button>Github</button></a>
-      <a href="https://www.linkedin.com/in/jennakoslowski/"><button>LinkedIn</button></a>
-      <h4 class="construction">
-        *This site is currently under construction. 
-      </h4>
     </div>
   </section>
 </template>
@@ -33,12 +29,6 @@
   color: var(--koa);
   word-spacing: 5px;
   padding-bottom: 15px;
-}
-.construction{
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  font-size: 10px;
 }
 </style>
 
