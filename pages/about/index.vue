@@ -26,5 +26,6 @@
     p {
         text-align: justify;
         color: var(--koa);
+        width: 80%;
     }
 </style>

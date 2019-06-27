@@ -6,12 +6,12 @@
     <div class="projectblock">
     <h2> Current Projects </h2>
     <section class="currentprojects">
-        <Projects class="projects current"
+        <Projects class="projects"
             title="Coffee Map"
             languages= "HTML, CSS, JS, React.JS"
-            screeshot="../../coffeeMap.JPG"
+            screenshot= "../../coffeeMap.JPG"
             github= 'https://github.com/JennaKoslowski/neighborhood-maps' />
-        <Projects class="projects current"
+        <Projects class="projects"
             title="Vue Profile"
             languages= "HTML, CSS, JS, Vue.JS, Nuxt.JS"
             screenshot="../../vueProfile.JPG"
