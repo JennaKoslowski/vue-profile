@@ -1,28 +1,16 @@
-# professional-profile
+##Information
+This is my portfolio website created in order to showcase various projects. 
 
-> professional portfolio ud nuxtsing
+This should be run via npm run dev
 
-## Build Setup
-
-``` bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
-
-Languages and frameworks used:
+#Languages and frameworks used:
 CSS
 JavaScript
 VueJS
 NuxtJS
+
+##Features to add: 
+
+font-awesome navigation on mobile devices (similar to Instagram) 
+blog using Storyblok
+
