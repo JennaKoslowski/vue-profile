@@ -1,6 +1,6 @@
 <template>
    <div id= "navandcontent">
-    <nuxt />
+    <nuxt class="nuxt"/>
     <NavBar class="nav"/>
     </div>
 </template>
@@ -18,7 +18,10 @@
 <style>
   #navandcontent{
     display:flex;
-    
+  }
+    .nuxt{
+    margin-top: 12vh;
+    padding-left: 10px
   }
 
  @media only screen and (min-width: 469px){
@@ -26,5 +29,6 @@
   display: grid;
   grid-template-columns: 4fr 1fr;
 }
+
  }
 </style>

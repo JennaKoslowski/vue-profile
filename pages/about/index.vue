@@ -20,9 +20,6 @@
         background: var(--middle);
         color: var(--koa);
     }
-    .aboutme {
-        padding: 40px 30px;
-    }
     p {
         text-align: justify;
         color: var(--koa);
