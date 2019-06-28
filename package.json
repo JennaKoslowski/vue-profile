@@ -10,14 +10,16 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "deploy": "node ./node_modules/vue-gh-pages/index.vue"
+    "deploy": "node ./node_modules/vue-gh-pages/index.vue",
+    "build:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt build",
+    "generate:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt generate"
   },
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "cross-env": "^5.2.0",
     "nuxt": "^2.8.1"
   },
   "devDependencies": {
-    "cross-env": "^5.2.0",
     "nodemon": "^1.18.9",
     "vue-gh-pages": "^1.19.0",
     "webpack-dev-server": "^3.3.1"
