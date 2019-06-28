@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "nodemon": "^1.18.9",
+    "vue-gh-pages": "^1.19.0",
     "webpack-dev-server": "^3.3.1"
   }
 }
