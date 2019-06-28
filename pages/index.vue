@@ -1,10 +1,6 @@
 <template>
   <section class="container">
     <div>
-<<<<<<< HEAD
-      <Logo />
-=======
->>>>>>> basic
       <h1 class="title">
         Jenna Koslowski
       </h1>
