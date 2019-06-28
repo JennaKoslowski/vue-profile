@@ -1,16 +1,18 @@
 <template>
   <section class="container">
     <div>
+<<<<<<< HEAD
       <Logo />
+=======
+>>>>>>> basic
       <h1 class="title">
         Jenna Koslowski
       </h1>
       <h2 class="subtitle">
         JavaScript Developer
       </h2>
-      <h4 class="construction">
-        *This site is currently under construction. 
-      </h4>
+      <a href="https://github.com/JennaKoslowski/"><button>Github</button></a>
+      <a href="https://www.linkedin.com/in/jennakoslowski/"><button>LinkedIn</button></a>
     </div>
   </section>
 </template>
@@ -24,34 +26,14 @@
   text-align: center;
 }
 * {
-  color: #4c535e;
-  background-color: whitesmoke;
+  color: var(--koa);
+  background-color: var(--middle);
 }
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #4c535e;
-  letter-spacing: 1px;
-}
-
 .subtitle {
   font-weight: 300;
-  font-size: 42px;
-  color: #4c535e;
+  color: var(--koa);
   word-spacing: 5px;
   padding-bottom: 15px;
 }
-.construction{
-  bottom: 0;
-  left: 0;
-  position: absolute;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>
+

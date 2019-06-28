@@ -13,8 +13,9 @@
     "deploy": "node ./node_modules/vue-gh-pages/index.vue"
   },
   "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
     "cross-env": "^5.2.0",
-    "nuxt": "^2.4.0"
+    "nuxt": "^2.8.1"
   },
   "devDependencies": {
     "nodemon": "^1.18.9",

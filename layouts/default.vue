@@ -1,78 +1,34 @@
 <template>
-  <div class="app-container">
-   <FollowBar/>
    <div id= "navandcontent">
-    <nuxt />
-    <NavBar />
+    <nuxt class="nuxt"/>
+    <NavBar class="nav"/>
     </div>
-  </div>
 </template>
 
 <script>
   import NavBar from '@/components/NavBar'
-  import FollowBar from '@/components/FollowBar'
 
   export default {
     components: {
-      NavBar,
-      FollowBar
+      NavBar
     }
   }
 </script>
 
 <style>
-html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 18px;
-  word-spacing: 3px;
-  line-height: 2;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-  background: whitesmoke;
-}
+  #navandcontent{
+    display:flex;
+  }
+    .nuxt{
+    margin-top: 12vh;
+    padding-left: 10px
+  }
 
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-#navandcontent {
+ @media only screen and (min-width: 469px){
+  #navandcontent {
   display: grid;
   grid-template-columns: 4fr 1fr;
 }
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
+ }
 </style>
