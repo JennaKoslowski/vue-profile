@@ -8,6 +8,7 @@
         JavaScript Developer
       </h2>
       <a href="https://github.com/JennaKoslowski/"><button>Github</button></a>
+      <a href="https://www.linkedin.com/in/jennakoslowski/"><button>LinkedIn</button></a>
     </div>
   </section>
 </template>
