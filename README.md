@@ -9,3 +9,4 @@ JavaScript
 VueJS
 NuxtJS
 
+When I update this site with new projects I update it in the jennakoslowski.github.io repository.
